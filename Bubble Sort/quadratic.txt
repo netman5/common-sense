@@ -1,0 +1,3 @@
+Bubble Sor: Comparing items of an array of array or sorting array.
+
+Example: A quadratic problem of finding if an array contains a duplicate value.

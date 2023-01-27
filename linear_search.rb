@@ -1,13 +1,14 @@
+# frozen_string_literal: true
+
 def linear_search(array, value)
   array.each do |element|
-
     if element == value
       return value
 
     elsif element > value
-      break 
+      break
     end
   end
 
-  return nil
-end 
+  nil
+end
