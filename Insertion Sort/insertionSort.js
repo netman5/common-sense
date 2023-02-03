@@ -2,13 +2,14 @@ function insertionSort(arr) {
 
   for (let index = 1; index < arr.length; index++) {
     let tempValue = arr[index]
-    let pos = index
+    let currentIndex = index
 
-    while (pos > 0 && arr[pos - 1] > tempValue) {
-      arr[pos] = arr[pos - 1]
-      pos = pos - 1
+    while (currentIndex > 0 && arr[currentIndex - 1] > tempValue) {
+      arr[currentIndex] = arr[currentIndex - 1]
+      currentIndex = currentIndex - 1
 
-      arr[pos] = tempValue
+      arr[currentIndex] = tempValue
+      console.log(arr[currentIndex]);
     }
   }
 
