@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 def every_other_item(arr)
   other_arr = []
   index = 0
